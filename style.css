@@ -1,0 +1,48 @@
+/* Isto só muda o aspeto da página, não tem nada a ver com o jogo em si */
+
+body {
+  background-color: #1a1a2e;      /* fundo escuro */
+  color: #eeeeee;                 /* texto quase branco */
+  font-family: Arial, sans-serif; /* tipo de letra */
+  text-align: center;             /* tudo centrado */
+  margin: 0;
+  padding-top: 15px;
+}
+
+h1 {
+  color: #ffd166;                 /* amarelo */
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+/* O retângulo do jogo — pode encolher para caber no ecrã */
+canvas {
+  background-color: #16213e;
+  border: 3px solid #ffd166;
+  border-radius: 8px;
+  max-width: 95vw;
+  max-height: 74vh;
+}
+
+.controls {
+  color: #aaaaaa;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+/* Botão de ecrã inteiro */
+#fsBtn {
+  background-color: #ffd166;
+  color: #1a1a2e;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 18px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+#fsBtn:hover {
+  background-color: #ffe066;
+  transform: scale(1.05);
+}
